@@ -1,0 +1,93 @@
+section
+{
+    display: flex;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+#logo
+{
+    width: 15em;
+    height: 4em;
+}
+nav ul{
+    display: flex;
+
+}
+nav li
+{
+    margin-right: 5px;
+    list-style-type: none;
+}
+.foot
+{
+    display: flex;
+}
+.baniere
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    background: url(../images/backgroung_image.jpg);
+    justify-content: center;
+    color : white;
+}
+.definition
+{
+    text-align: center;
+    font-size: 1.2em;
+    width: 100%;
+}
+.taille
+{
+    margin: 2em;
+    text-align: center;
+        margin-right: 7em;
+        margin-left: 7em;
+        text-align: center;
+        justify-content: space-around;
+}
+.section2
+{
+    width: 30%;
+    justify-content: space-between;
+}
+.commentaire
+{
+    font-size: 1.2em;
+    text-align: center;
+    width: 40%;
+    margin-left: 23em;
+}
+
+footer
+{
+    background-color: darkorchid;
+}
+.foot {
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+}
+.Acc{
+    margin-right: 12em;
+}
+.pro{
+    margin-right: 12em;
+}
+.sec
+{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.icons
+{
+    opacity: 0.3;
+    text-align: center;
+    font-size: xx-large;
+}
